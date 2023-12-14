@@ -44,7 +44,7 @@ systemctl enabled chronyd.service
 systemctl restart chronyd.service
 ```
 
-## see status
+## status
 ```
 systemctl status chronyd.service
 ```
