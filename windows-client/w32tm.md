@@ -18,7 +18,10 @@ Start-Service w32time
 
 ## Configure as server
 
+Navigate to **Computer** > **Administrative Templates** > **System** > **Windows Time Service** > **Time Providers** > **Enable Windows NTP Server**.
 
+![gepedit](./assets/time-providers-gepedit.png)
+![gepedit](./assets/time-providers-ntp-server.png)
 
 # FireWall
 
