@@ -9,11 +9,10 @@ C:\Windows\system32\w32tm /resync /rediscover
 C:\Windows\system32\w32tm /dumpreg /subkey:parameters
 C:\Windows\system32\w32tm /query /status /verbose
 
-net stop w32time
-net start w32time
-
 Stop-Service w32time
 Start-Service w32time
+
+Set-Service –Name w32time –StartupType "Automatic"
 ```
 
 ## Configure as server
