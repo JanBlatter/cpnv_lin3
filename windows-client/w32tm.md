@@ -27,7 +27,7 @@ Navigate to **Computer** > **Administrative Templates** > **System** > **Windows
 ## Set
 
 ```
-netsh advfirewall firewall add rule name="Open Port 80" dir=in action=allow protocol=UDP localport=123
+netsh advfirewall firewall add rule name="Open Port 123/UDP" dir=in action=allow protocol=UDP localport=123
 ```
 
 # TimeZone
