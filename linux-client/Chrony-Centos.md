@@ -49,6 +49,8 @@ systemctl restart chronyd.service
 systemctl status chronyd.service
 ```
 
+## check stratum 
+ chronyc tracking
 
 ## Sources 
 https://chrony-project.org/doc/4.4/chrony.conf.html
